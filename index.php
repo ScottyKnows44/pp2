@@ -18,6 +18,10 @@ printArr($numbers);
 
 $largest = largest($numbers);
 
-echo "The largest number is: " . $largest;
+echo "The largest number is: " . $largest. "<br>";
 
+$hello = removeDups($numbers);
 
+foreach ($hello as $number){
+    echo $number . "<br>";
+}

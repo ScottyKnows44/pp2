@@ -14,3 +14,13 @@ function largest($numbers){
     }
     return $largest;
 }
+
+function removeDups($numbers){
+    $array2 = array();
+    foreach ($numbers as $number){
+        if(in_array($number, $array2) == false){
+            array_push($array2, $number);
+        }
+    }
+    return $array2;
+}
