@@ -15,3 +15,9 @@ $numbers = array( 7, 9, 8, 9,
 include('functions.php');
 
 printArr($numbers);
+
+$largest = largest($numbers);
+
+echo "The largest number is: " . $largest;
+
+
