@@ -25,3 +25,11 @@ $hello = removeDups($numbers);
 foreach ($hello as $number){
     echo $number . "<br>";
 }
+
+$final = distribution($numbers);
+
+echo "final function:" . "<br>";
+
+foreach ($final as $product => $price){
+    echo "$product - $price<br>";
+}
